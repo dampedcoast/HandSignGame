@@ -42,14 +42,14 @@ class Renderer:
             self.draw_current_sign(player)
 
         # Draw Projectiles
-        for p in game_manager.combat_manager.projectiles:
-            if p.ability_type == "heavy_attack":
-                continue # Purple for Heavy Attack
-            elif p.ability_type == "water_ball":
-                color = (0, 0, 255) # Blue for Water Ball
-            else:
-                color = (255, 100, 0) # Fireball (Default)
-            pygame.draw.circle(self.screen, color, (int(p.x), int(p.y)), p.radius)
+       # for p in game_manager.combat_manager.projectiles:
+        #    if p.ability_type == "heavy_attack":
+         #       continue # Purple for Heavy Attack
+          #  elif p.ability_type == "water_ball":
+           #     color = (0, 0, 255) # Blue for Water Ball
+            #else:
+             #   color = (255, 100, 0) # Fireball (Default)
+            #pygame.draw.circle(self.screen, color, (int(p.x), int(p.y)), p.radius)
 
         # Draw Walls
     #    for w in game_manager.combat_manager.walls:
