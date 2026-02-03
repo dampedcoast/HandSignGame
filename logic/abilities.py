@@ -11,7 +11,7 @@ class AbilityType(Enum):
 COMBOS = {
     AbilityType.WALL: ["hare", "snake"],
     AbilityType.FIREBALL: ["snake", "ram"],
-    AbilityType.HEAVY_ATTACK: ["dragon", "tiger"],
+    AbilityType.HEAVY_ATTACK: ["dragon", "dog"],
     AbilityType.WATER_BALL: ["hare", "ram"]
 }
 
